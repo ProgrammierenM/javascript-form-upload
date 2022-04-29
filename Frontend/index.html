@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulardaten verarbeiten</title>
+  </head>
+  <body>
+    <form id="myForm">
+      <fieldset>
+        <legend>Newsletter</legend>
+        <p>
+          <label for="firstname">Vorname</label>
+          <br />
+          <input type="text" id="firstname" name="firstname" required />
+        </p>
+        <p>
+          <label for="lastname">Nachname</label>
+          <br />
+          <input type="text" id="lastname" name="lastname" required />
+        </p>
+        <p>
+          <label for="email">Email</label>
+          <br />
+          <input type="email" id="email" name="email" required />
+        </p>
+        <p>
+          <label for="avatar">Avatar</label>
+          <br />
+          <input type="file" name="avatar" id="avatar" />
+        </p>
+        <p>
+          <input type="checkbox" id="spam" name="spam" checked />
+          <label for="spam">Ja, ich möchte Spam</label>
+        </p>
+        <p>
+          <button id="btnSubmit">Jetzt registrieren</button>
+        </p>
+      </fieldset>
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>
